@@ -1,0 +1,138 @@
+/* Reset some basic browser styles so it looks the same everywhere */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Base styles for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* 1. Navbar Styles */
+header {
+    background-color: #5c4033; /* Dark brown color */
+    color: white;
+    padding: 15px 20px;
+    display: flex; /* Simple Flexbox to align items */
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styling */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navbar links styling */
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    display: flex; /* Aligns links horizontally */
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Removes underline */
+}
+
+/* 2. Hero Section Styles */
+.hero {
+    background-color: #f4e1d2; /* Light coffee color */
+    text-align: center; /* Centers the text */
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+.btn {
+    background-color: #5c4033;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px; /* Makes the corners slightly round */
+}
+
+/* 3. Menu Section Styles */
+.menu-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Menu item container styling */
+.menu-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+}
+
+.menu-item h3 {
+    color: #5c4033;
+}
+
+/* Price styling */
+.price {
+    font-weight: bold;
+    color: #2c7a7b; /* A nice teal color for contrast */
+}
+
+/* 4. About Section Styles */
+.about-section {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto; /* Centers the paragraph horizontally */
+    margin-right: auto;
+}
+
+.about-section img {
+    max-width: 600px; /* Limits the size of the image */
+    width: 100%; /* Makes image responsive within the max-width */
+    height: auto;
+    border-radius: 10px;
+    display: block; /* Helps center the image */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+/* 5. Footer Styles */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
